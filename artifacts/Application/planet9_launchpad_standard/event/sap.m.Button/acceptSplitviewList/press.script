@@ -1,0 +1,9 @@
+diaSplitviewList.acceptSplitviewListCallback({
+    title: inSplitviewListTitle.getValue(),
+    info: inSplitviewListDescription.getValue(),
+    saveToServer: inSplitviewListSave.getSelected(),
+    fullscreen: inSplitviewListFullscreen.getSelected()
+});
+diaSplitviewList.close();
+
+if (diaSplitviewList.isDirty) diaSplitviewList.isDirtyCallback();

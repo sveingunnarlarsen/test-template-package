@@ -1,0 +1,6 @@
+var path = oEvent.getParameter("listItem").getBindingContextPath();
+var data = modelAppCacheMostused.getObject(path);
+
+modelAppCacheMostused.oData.MOSTUSED = modelAppCacheMostused.oData.MOSTUSED.filter(obj=>obj.id !== data.id);
+setCacheAppCacheMostused();
+modelAppCacheMostused.refresh();

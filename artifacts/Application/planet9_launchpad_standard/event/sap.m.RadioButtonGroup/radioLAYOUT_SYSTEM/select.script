@@ -1,0 +1,29 @@
+setCacheAppCacheDiaSettings();
+sap.n.Launchpad.RebuildTiles();
+AppCache.Home();
+
+const selected = radioLAYOUT_SYSTEM.getSelectedIndex();
+
+//reset current layout, so that a new can be set in sap.n.Design.apply Layout => sap.n.Launchpad.after Theme
+AppCache.CurrentLayout = {};
+
+neptune.Utils.userDefault.update({
+    AREA: "LAUNCHPAD",
+    GROUPING: "LAYOUT_SYSTEM",
+    NAME: AppCache.CurrentConfig,
+    KEY0: "index",
+    NUM0: selected
+});
+
+AppCache.userInfo.layoutSystem = selected;
+
+let user = modelAppCacheUsers.oData.find(obj => obj.username === AppCache.userInfo.username);
+if (user) {
+    user.layoutSystem = selected;
+    ModelData.Update(AppCacheUsers, "username", AppCache.userInfo.username, user);
+    setCacheAppCacheUsers();
+}
+
+sap.n.Design.LastSeen.updateSystem(selected);
+
+AppCacheDiaSettings.close();

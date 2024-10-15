@@ -1,0 +1,7 @@
+var selectedItem = oEvent.oSource.getSelectedItem();
+var path = selectedItem.getBindingContextPath();
+var app = oEvent.oSource.getModel().getObject(path);
+
+diaSplitviewApp.appListCallback([app]);
+diaSplitviewApp.close();
+

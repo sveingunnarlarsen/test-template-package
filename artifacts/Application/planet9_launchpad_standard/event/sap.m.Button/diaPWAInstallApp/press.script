@@ -1,0 +1,6 @@
+// Only hide pwa install dialog if pwa installation is possible, and user has clicked "Install Application"
+if (isPWAInstallAvailable()) {
+    setPWAInstallQueryStatus();
+}
+
+promptForPWAInstall();

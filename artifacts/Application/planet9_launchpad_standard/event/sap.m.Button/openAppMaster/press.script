@@ -1,0 +1,10 @@
+sap.n.Launchpad.openAppExpanded = !sap.n.Launchpad.openAppExpanded;
+sap.n.Launchpad.setOpenAppsExpanded();
+
+neptune.Utils.userDefault.update({
+    AREA: "LAUNCHPAD",
+    GROUPING: "MULTI_MENU",
+    NAME: "EXPAND_OPEN_APPS",
+    KEY0: "Expand",
+    VAL0: sap.n.Launchpad.openAppExpanded ? "yes" : "no"
+});

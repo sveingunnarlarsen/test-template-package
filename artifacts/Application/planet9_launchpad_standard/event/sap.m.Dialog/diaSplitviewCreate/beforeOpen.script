@@ -1,0 +1,10 @@
+inSplitviewCreateTitle.setValue();
+inSplitviewCreateDescription.setValue();
+acceptSplitviewCreate.setEnabled(false);
+inSplitviewCreateSave.setSelected(sap.n.Launchpad.Splitview.saveCreate && !AppCache.isPublic);
+inSplitviewCreateFullscreen.setSelected(sap.n.Launchpad.Splitview.fullscreen);
+
+var selectedIndex = (sap.n.Launchpad.Splitview.orientation === "Horizontal") ? 0 : 1;
+rbgSplitviewCreateOrientation.setSelectedIndex(selectedIndex);
+
+inSplitviewCreateSave.setEditable(!AppCache.isPublic);

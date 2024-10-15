@@ -1,0 +1,27 @@
+const searchValue = this.getValue() || "";
+// const filters = [];
+// const filterArr = [];
+
+// if (!!searchValue) {
+//     filterArr.push(new sap.ui.model.Filter("text", "Contains", searchValue));
+// }
+
+// if (Array.isArray(filters) && filters.length > 0) {
+//     filterArr.push(new sap.ui.model.Filter({
+//         filters: filters,
+//         and: true
+//     }));
+// }
+//TODO Prom: Filter search lists
+// ListGlobalSearchActive.getBinding("items").filter(filterArr);
+ListGlobalSearchApplications.getBinding("items").filter([
+    new sap.ui.model.Filter("title", "Contains", searchValue)
+]);
+
+ListGlobalSearchFavorites.getBinding("items").filter([
+    new sap.ui.model.Filter("TILE_TITLE", "Contains", searchValue)
+]);
+
+ListGlobalSearchMostused.getBinding("items").filter([
+    new sap.ui.model.Filter("TILE_TITLE", "Contains", searchValue)
+]);

@@ -1,0 +1,9 @@
+var context = oEvent.oSource.getBindingContext();
+var data = context.getObject();
+
+sap.n.Shell.closeTile({
+    GUID: data.TILE_GUID
+});
+
+ModelData.Delete(ListOverflow, "TILE_GUID", data.TILE_GUID);
+modelListOverflow.refresh();

@@ -1,0 +1,3 @@
+const context = oEvent.getParameter("listItem").getBindingContext();
+const data = context.getObject();
+data.deleteFn();

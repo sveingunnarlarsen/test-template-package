@@ -1,0 +1,8 @@
+let context = oEvent.oSource.getBindingContext("AppCacheFavorites");
+let data = context.getObject();
+
+const dataTile = ModelData.FindFirst(AppCacheTiles, "id", data.id);
+if (dataTile) {
+    sap.n.Launchpad.HandleTilePress(dataTile);
+    sap.n.GlobalSearch.close();
+}

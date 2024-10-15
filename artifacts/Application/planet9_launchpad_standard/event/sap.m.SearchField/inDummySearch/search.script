@@ -1,0 +1,3 @@
+setTimeout(function() {
+    sap.n.GlobalSearch.open();
+}, 50);

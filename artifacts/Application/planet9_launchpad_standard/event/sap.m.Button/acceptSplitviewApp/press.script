@@ -1,0 +1,10 @@
+var apps = [];
+var selectedItems = TabSplitviewApp.getSelectedItems();
+
+selectedItems.forEach(item=>{
+    apps.push(item.getBindingContext().getObject());
+});
+
+diaSplitviewApp.appListCallback(apps);
+diaSplitviewApp.close();
+

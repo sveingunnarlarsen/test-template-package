@@ -1,0 +1,29 @@
+<style id="loginStyle">
+    .nepLogonLayout .nepLogonButtonLayout,
+    .nepLogonLayout .nepLogonSystemLayout {
+        padding: 0;
+        margin-top: .5rem
+    }
+    @media (max-width: 450px) {
+        .nepLogonContainer .nepBackdropContainer {
+            margin: 0;
+        }
+        .nepLogonLayout.nepLogonLayoutUsers {
+            flex-direction: column;
+        }
+    }
+    .nepPassRequired.sapMMsgStrip {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .sapUiFormEdit .nepLogonSystemName.sapMText,
+    .sapUiFormEdit .nepLogonSystemDescription.sapMText {
+        padding: 0;
+        min-height: 0;
+    }
+    .nepAppCacheUser .sapMCLI,
+    .nepSelectUserBtn .sapMBtnInner,
+    .nepLogonLayoutUsers .sapMSFF {
+        border-radius: var(--sapButton_BorderCornerRadius, .5rem);
+    }
+</style>

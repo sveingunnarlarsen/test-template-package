@@ -1,0 +1,18 @@
+var size = (launchpadContentNavigator.getWidth() === "68px") ? AppCache.navBarWidth : "68px";
+var state = (size === "68px") ? "closed" : "open";
+// sap.n.Launchpad.setNavButtonState(state);
+
+sap.n.Launchpad.setContentNavigatorWidth(size);
+
+neptune.Utils.userDefault.update({
+    AREA: "LAUNCHPAD",
+    GROUPING: "OPEN_APPS_SIDE_MENU",
+    NAME: AppCache.CurrentConfig,
+    KEY0: "Size",
+    VAL0: size
+});
+sap.n.Launchpad.openAppsSideMenuSize = size;
+sap.n.Layout.setHeaderPadding();
+setTimeout(() => {
+    sap.n.Launchpad.checkSidepanelWidth();
+});

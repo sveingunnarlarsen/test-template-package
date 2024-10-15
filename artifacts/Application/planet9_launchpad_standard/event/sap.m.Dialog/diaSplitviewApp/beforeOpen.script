@@ -1,0 +1,18 @@
+var splitApps = [];
+Array.isArray(modelAppCacheTiles.oData) && modelAppCacheTiles.oData.forEach(tile => {
+    if (!!tile.actionApplication) {
+        splitApps.push({
+            GUID: tile.id,
+            APPLID: tile.actionApplication,
+            TILE_TITLE: tile.title || tile.name,
+            TILE_INFO: tile.subTitle,
+            TILE_ICON: tile.icon,
+            START_PARAMS: tile.actionParameters
+        });
+    }
+});
+
+objHeaderSplitviewApp.setNumber(splitApps.length);
+modelTabSplitviewApp.setData(splitApps);
+
+TabSplitviewApp.removeSelections();

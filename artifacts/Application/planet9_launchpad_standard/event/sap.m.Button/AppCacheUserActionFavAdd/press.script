@@ -1,0 +1,4 @@
+sap.n.Launchpad.settingsMenuClose();
+
+let dataTile = ModelData.FindFirst(AppCacheTiles, "id", sap.n.Launchpad.currentTile.id);
+sap.n.Launchpad.addFav(dataTile);

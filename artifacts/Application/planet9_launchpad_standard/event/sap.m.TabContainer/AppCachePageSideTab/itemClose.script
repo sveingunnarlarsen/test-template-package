@@ -1,0 +1,9 @@
+setTimeout(() => {
+    if (AppCachePageSideTab.getItems().length === 0) {
+
+        sap.n.Shell.closeSidepanel();
+
+        const dataTile = sap.n.Launchpad.currentTile;
+        AppCacheShellSidepanel.setVisible(!!dataTile && !!dataTile.sidepanelApp);
+    }
+});

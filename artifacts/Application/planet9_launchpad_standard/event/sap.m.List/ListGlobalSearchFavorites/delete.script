@@ -1,0 +1,8 @@
+var path = oEvent.getParameter("listItem").getBindingContextPath();
+var data = modelAppCacheFavorites.getObject(path);
+
+modelAppCacheFavorites.oData.FAVORITES = modelAppCacheFavorites.oData.FAVORITES.filter(obj => obj.id !== data.id);
+setCacheAppCacheFavorites();
+modelAppCacheFavorites.refresh();
+
+sap.n.Launchpad.saveFav();

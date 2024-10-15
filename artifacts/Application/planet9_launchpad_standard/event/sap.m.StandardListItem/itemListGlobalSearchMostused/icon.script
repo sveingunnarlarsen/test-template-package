@@ -1,0 +1,2 @@
+if (!TILE_ICON) return "sap-icon://nep/app";
+return TILE_ICON; 

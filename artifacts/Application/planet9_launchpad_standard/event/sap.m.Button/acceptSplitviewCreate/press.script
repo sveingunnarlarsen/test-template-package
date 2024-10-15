@@ -1,0 +1,8 @@
+sap.n.Launchpad.Splitview.create({
+    navTitle: inSplitviewCreateTitle.getValue().trim(),
+    navInfo: inSplitviewCreateDescription.getValue().trim(),
+    saveToServer: inSplitviewCreateSave.getSelected(),
+    orientation: (rbgSplitviewCreateOrientation.getSelectedIndex() === 0) ? "Horizontal" : "Vertical",
+    fullscreen: inSplitviewCreateFullscreen.getSelected()
+});
+diaSplitviewCreate.close();

@@ -1,0 +1,3361 @@
+{
+	"id": "570dece3-cd7e-4909-b99b-7db8e58d88c6",
+	"createdAt": "2020-03-25T08:24:42.900Z",
+	"createdBy": "gunnar",
+	"objects": [
+		{
+			"fieldNo": "4081b01e-e5eb-482a-80f1-506570d87914",
+			"fieldName": "appShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"description": "@1",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "autoFocus",
+					"grouping": "Properties",
+					"value": "false",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "styleClass",
+					"grouping": "Properties",
+					"value": "nepLaunchpadShell",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "21b6b143-2349-43ce-fb1f-f7403ee3fe36",
+					"fieldName": "pageShell",
+					"fieldParent": "4081b01e-e5eb-482a-80f1-506570d87914",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "styleClass",
+							"grouping": "Properties",
+							"value": "nepPageShell",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "showSubHeader",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "showHeader",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "showFooter",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "backgroundDesign",
+							"grouping": "Properties",
+							"value": "Transparent",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "f9269555-9e3e-4008-8d8e-53f5b2c1c860",
+							"fieldName": "launchpadMaster",
+							"fieldParent": "21b6b143-2349-43ce-fb1f-f7403ee3fe36",
+							"fieldType": "sap.m.FlexBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "fitContainer",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "renderType",
+									"grouping": "Properties",
+									"value": "Bare",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClass",
+									"grouping": "Properties",
+									"value": "nepLaunchpadMaster",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "6ef86dac-f1b0-4a4f-9b4a-149001bf2ded",
+									"fieldName": "contentMaster",
+									"fieldParent": "f9269555-9e3e-4008-8d8e-53f5b2c1c860",
+									"fieldType": "sap.m.FlexBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "fitContainer",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "renderType",
+											"grouping": "Properties",
+											"value": "Bare",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "nepContentMaster",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100%",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "cb064e1d-cdd8-477c-aabb-9d9231545104",
+											"fieldName": "launchpadContainer",
+											"fieldParent": "6ef86dac-f1b0-4a4f-9b4a-149001bf2ded",
+											"fieldType": "sap.m.FlexBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "nepLaunchpadContainer",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "renderType",
+													"grouping": "Properties",
+													"value": "Bare",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "fitContainer",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "direction",
+													"grouping": "Properties",
+													"value": "Column",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "70989032-2664-48ee-b7a7-8b856fffe3d3",
+													"fieldName": "topMenu",
+													"fieldParent": "cb064e1d-cdd8-477c-aabb-9d9231545104",
+													"fieldType": "sap.m.FlexBox",
+													"description": "",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "height",
+															"grouping": "Properties",
+															"value": "3rem",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "renderType",
+															"grouping": "Properties",
+															"value": "Bare",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "nepTopMenu nepActionMenu nepHeaderBorder",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "100%",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "85b47175-4ab1-4d40-c822-8d2ce0f874f9",
+															"fieldName": "toolTopMenu",
+															"fieldParent": "70989032-2664-48ee-b7a7-8b856fffe3d3",
+															"fieldType": "sap.m.HBox",
+															"description": "",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "height",
+																	"grouping": "Properties",
+																	"value": "3rem",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "renderType",
+																	"grouping": "Properties",
+																	"value": "Bare",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "styleClass",
+																	"grouping": "Properties",
+																	"value": "nepTopMenuContent",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "adc2c231-cb58-4cc1-df93-61d536840551",
+																	"fieldName": "topContainerLeft",
+																	"fieldParent": "85b47175-4ab1-4d40-c822-8d2ce0f874f9",
+																	"fieldType": "sap.m.VBox",
+																	"description": "",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "renderType",
+																			"grouping": "Properties",
+																			"value": "Bare",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "styleClass",
+																			"grouping": "Properties",
+																			"value": "nepTopMenuContentLeft",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "7088799f-45e7-4afa-d2e6-8d15d7e7622a",
+																			"fieldName": "topLayoutLeft",
+																			"fieldParent": "adc2c231-cb58-4cc1-df93-61d536840551",
+																			"fieldType": "sap.m.HBox",
+																			"description": "",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "renderType",
+																					"grouping": "Properties",
+																					"value": "Bare",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "styleClass",
+																					"grouping": "Properties",
+																					"value": "nepTopMenuContentLeftLayout",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": [
+																				{
+																					"fieldNo": "0acc4081-0c08-40c2-e448-e8fa6a0f3b00",
+																					"fieldName": "topLayoutLogo",
+																					"fieldParent": "7088799f-45e7-4afa-d2e6-8d15d7e7622a",
+																					"fieldType": "sap.m.HBox",
+																					"description": "",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "renderType",
+																							"grouping": "Properties",
+																							"value": "Bare",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "styleClass",
+																							"grouping": "Properties",
+																							"value": "nepTopMenuIcon",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": [
+																						{
+																							"fieldNo": "53dd3051-4341-4ce8-d343-c11cdc9aae7e",
+																							"fieldName": "boxShellLogoDesktop",
+																							"fieldParent": "0acc4081-0c08-40c2-e448-e8fa6a0f3b00",
+																							"fieldType": "sap.m.VBox",
+																							"description": "",
+																							"script": "",
+																							"customComponent": false,
+																							"request": [],
+																							"response": [],
+																							"attributes": [
+																								{
+																									"attribute": "alignItems",
+																									"grouping": "Properties",
+																									"value": "Center",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "height",
+																									"grouping": "Properties",
+																									"value": "48px",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "justifyContent",
+																									"grouping": "Properties",
+																									"value": "Center",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "renderType",
+																									"grouping": "Properties",
+																									"value": "Bare",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "styleClass",
+																									"grouping": "Properties",
+																									"value": "nepTopMenuIconContainerDesktop",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "styleClassMargin",
+																									"grouping": "Properties",
+																									"value": "sapUiSmallMarginEnd",
+																									"script": "",
+																									"translation": []
+																								}
+																							],
+																							"data": [
+																								{
+																									"fieldNo": "07f8d472-7733-435d-f980-f994f28b548d",
+																									"fieldName": "AppCacheShellLogoDesktop",
+																									"fieldParent": "53dd3051-4341-4ce8-d343-c11cdc9aae7e",
+																									"fieldType": "sap.m.Image",
+																									"description": "",
+																									"script": "",
+																									"customComponent": false,
+																									"request": [],
+																									"response": [],
+																									"attributes": [
+																										{
+																											"attribute": "styleClass",
+																											"grouping": "Properties",
+																											"value": "nepTopMenuIcon nepTopMenuIconDesktop",
+																											"script": "",
+																											"translation": []
+																										},
+																										{
+																											"attribute": "tooltip",
+																											"grouping": "Properties",
+																											"value": "Home",
+																											"script": "",
+																											"translation": [
+																												{
+																													"language": "0",
+																													"value": "Кућа"
+																												},
+																												{
+																													"language": "1",
+																													"value": "家"
+																												},
+																												{
+																													"language": "2",
+																													"value": "บ้าน"
+																												},
+																												{
+																													"language": "3",
+																													"value": "집"
+																												},
+																												{
+																													"language": "4",
+																													"value": "Acasă"
+																												},
+																												{
+																													"language": "5",
+																													"value": "Domov"
+																												},
+																												{
+																													"language": "6",
+																													"value": "Dom"
+																												},
+																												{
+																													"language": "7",
+																													"value": "Rumah"
+																												},
+																												{
+																													"language": "8",
+																													"value": "Додому"
+																												},
+																												{
+																													"language": "9",
+																													"value": "Kodu"
+																												},
+																												{
+																													"language": "A",
+																													"value": "الصفحة الرئيسية"
+																												},
+																												{
+																													"language": "AR",
+																													"value": "بيت"
+																												},
+																												{
+																													"language": "B",
+																													"value": "בית"
+																												},
+																												{
+																													"language": "BG",
+																													"value": "Начало"
+																												},
+																												{
+																													"language": "C",
+																													"value": "Domov"
+																												},
+																												{
+																													"language": "CS",
+																													"value": "Domov"
+																												},
+																												{
+																													"language": "D",
+																													"value": "Zuhause"
+																												},
+																												{
+																													"language": "DA",
+																													"value": "Hjem"
+																												},
+																												{
+																													"language": "DE",
+																													"value": "Heim"
+																												},
+																												{
+																													"language": "EL",
+																													"value": "Σπίτι"
+																												},
+																												{
+																													"language": "ES",
+																													"value": "Hogar"
+																												},
+																												{
+																													"language": "ET",
+																													"value": "Kodu"
+																												},
+																												{
+																													"language": "F",
+																													"value": "Accueil"
+																												},
+																												{
+																													"language": "FI",
+																													"value": "Kotiin"
+																												},
+																												{
+																													"language": "FR",
+																													"value": "Maison"
+																												},
+																												{
+																													"language": "G",
+																													"value": "Σπίτι"
+																												},
+																												{
+																													"language": "H",
+																													"value": "itthon"
+																												},
+																												{
+																													"language": "HE",
+																													"value": "בַּיִת"
+																												},
+																												{
+																													"language": "HR",
+																													"value": "Dom"
+																												},
+																												{
+																													"language": "HU",
+																													"value": "Otthon"
+																												},
+																												{
+																													"language": "I",
+																													"value": "Casa"
+																												},
+																												{
+																													"language": "ID",
+																													"value": "Rumah"
+																												},
+																												{
+																													"language": "IS",
+																													"value": "Heim"
+																												},
+																												{
+																													"language": "IT",
+																													"value": "Casa"
+																												},
+																												{
+																													"language": "J",
+																													"value": "家"
+																												},
+																												{
+																													"language": "JA",
+																													"value": "家"
+																												},
+																												{
+																													"language": "K",
+																													"value": "Hjem"
+																												},
+																												{
+																													"language": "KO",
+																													"value": "집"
+																												},
+																												{
+																													"language": "L",
+																													"value": "Dom"
+																												},
+																												{
+																													"language": "LT",
+																													"value": "Pradžia"
+																												},
+																												{
+																													"language": "LV",
+																													"value": "Sākums"
+																												},
+																												{
+																													"language": "MS",
+																													"value": "Rumah"
+																												},
+																												{
+																													"language": "N",
+																													"value": "Home"
+																												},
+																												{
+																													"language": "NL",
+																													"value": "Thuis"
+																												},
+																												{
+																													"language": "NO",
+																													"value": "Hjem"
+																												},
+																												{
+																													"language": "O",
+																													"value": "Hjem"
+																												},
+																												{
+																													"language": "P",
+																													"value": "Página Principal"
+																												},
+																												{
+																													"language": "PL",
+																													"value": "Dom"
+																												},
+																												{
+																													"language": "PT",
+																													"value": "Lar"
+																												},
+																												{
+																													"language": "Q",
+																													"value": "Domov"
+																												},
+																												{
+																													"language": "R",
+																													"value": "Дом"
+																												},
+																												{
+																													"language": "RO",
+																													"value": "Acasă"
+																												},
+																												{
+																													"language": "RU",
+																													"value": "Дом"
+																												},
+																												{
+																													"language": "S",
+																													"value": "Hogar"
+																												},
+																												{
+																													"language": "SE",
+																													"value": "Ruoktu"
+																												},
+																												{
+																													"language": "SH",
+																													"value": "Хоме"
+																												},
+																												{
+																													"language": "SK",
+																													"value": "Domov"
+																												},
+																												{
+																													"language": "SL",
+																													"value": "domov"
+																												},
+																												{
+																													"language": "SR",
+																													"value": "Хоме"
+																												},
+																												{
+																													"language": "SV",
+																													"value": "Hem"
+																												},
+																												{
+																													"language": "T",
+																													"value": "Ev"
+																												},
+																												{
+																													"language": "TH",
+																													"value": "บ้าน"
+																												},
+																												{
+																													"language": "TR",
+																													"value": "Ev"
+																												},
+																												{
+																													"language": "U",
+																													"value": "Koti"
+																												},
+																												{
+																													"language": "UK",
+																													"value": "додому"
+																												},
+																												{
+																													"language": "V",
+																													"value": "Hem"
+																												},
+																												{
+																													"language": "W",
+																													"value": "У дома"
+																												},
+																												{
+																													"language": "X",
+																													"value": "Namai"
+																												},
+																												{
+																													"language": "Y",
+																													"value": "Mājas"
+																												},
+																												{
+																													"language": "ZH",
+																													"value": "家"
+																												},
+																												{
+																													"language": "b",
+																													"value": "Heim"
+																												},
+																												{
+																													"language": "d",
+																													"value": "Dom"
+																												},
+																												{
+																													"language": "i",
+																													"value": "Rumah"
+																												},
+																												{
+																													"language": "쀚",
+																													"value": "Uy"
+																												}
+																											]
+																										}
+																									],
+																									"data": []
+																								}
+																							]
+																						}
+																					]
+																				},
+																				{
+																					"fieldNo": "71a48b33-80bd-4a44-e093-364fd34ee916",
+																					"fieldName": "layoutShellTitle",
+																					"fieldParent": "7088799f-45e7-4afa-d2e6-8d15d7e7622a",
+																					"fieldType": "sap.m.VBox",
+																					"description": "",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "height",
+																							"grouping": "Properties",
+																							"value": "48px",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "justifyContent",
+																							"grouping": "Properties",
+																							"value": "Center",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "renderType",
+																							"grouping": "Properties",
+																							"value": "Bare",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": [
+																						{
+																							"fieldNo": "cd8ac0ab-624d-4433-eb0b-d52374a392c5",
+																							"fieldName": "AppCacheShellTitle",
+																							"fieldParent": "71a48b33-80bd-4a44-e093-364fd34ee916",
+																							"fieldType": "sap.m.Title",
+																							"description": "",
+																							"script": "",
+																							"customComponent": false,
+																							"request": [],
+																							"response": [],
+																							"attributes": [
+																								{
+																									"attribute": "level",
+																									"grouping": "Properties",
+																									"value": "H1",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "styleClass",
+																									"grouping": "Properties",
+																									"value": "nepMobileTitle nepShellTitle",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "titleStyle",
+																									"grouping": "Properties",
+																									"value": "H5",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "text",
+																									"grouping": "Properties",
+																									"value": "Logon",
+																									"script": "",
+																									"translation": []
+																								}
+																							],
+																							"data": []
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"fieldNo": "1623ad1d-c468-4b78-8fa8-a0f5c9b37433",
+													"fieldName": "launchpadContent",
+													"fieldParent": "cb064e1d-cdd8-477c-aabb-9d9231545104",
+													"fieldType": "sap.m.FlexBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "nepLaunchpadContent",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "renderType",
+															"grouping": "Properties",
+															"value": "Bare",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "fitContainer",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "direction",
+															"grouping": "Properties",
+															"value": "Row",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "15f529c8-b340-4234-eb24-4dd28dae92e4",
+															"fieldName": "launchpadContentMain",
+															"fieldParent": "1623ad1d-c468-4b78-8fa8-a0f5c9b37433",
+															"fieldType": "sap.m.VBox",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "styleClass",
+																	"grouping": "Properties",
+																	"value": "nepLaunchpadContentMain",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "renderType",
+																	"grouping": "Properties",
+																	"value": "Bare",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "fitContainer",
+																	"grouping": "Properties",
+																	"value": "true",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "fb5d5942-3b98-4186-a9d7-44d0b35d1262",
+																	"fieldName": "AppCacheShellUI",
+																	"fieldParent": "15f529c8-b340-4234-eb24-4dd28dae92e4",
+																	"fieldType": "sap.m.Shell",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "styleClass",
+																			"grouping": "Properties",
+																			"value": "nepShell nepAppCacheShell",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "appWidthLimited",
+																			"grouping": "Properties",
+																			"value": "false",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "9004e472-9ed0-45ef-d44f-7f4b0caaf1e1",
+																			"fieldName": "AppCacheNav",
+																			"fieldParent": "fb5d5942-3b98-4186-a9d7-44d0b35d1262",
+																			"fieldType": "sap.m.NavContainer",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "defaultTransitionName",
+																					"grouping": "Properties",
+																					"value": "show",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "autoFocus",
+																					"grouping": "Properties",
+																					"value": "false",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "styleClass",
+																					"grouping": "Properties",
+																					"value": "nepNavContainer",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": [
+																				{
+																					"fieldNo": "c2fc2bd7-8641-42b4-c53c-c8db8f2b6e4c",
+																					"fieldName": "AppCache_boxLogon",
+																					"fieldParent": "9004e472-9ed0-45ef-d44f-7f4b0caaf1e1",
+																					"fieldType": "sap.m.Page",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "styleClass",
+																							"grouping": "Properties",
+																							"value": "nepPageBackdrop",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "showHeader",
+																							"grouping": "Properties",
+																							"value": "false",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "showFooter",
+																							"grouping": "Properties",
+																							"value": "false",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "backgroundDesign",
+																							"grouping": "Properties",
+																							"value": "Transparent",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "showSubHeader",
+																							"grouping": "Properties",
+																							"value": "false",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": [
+																						{
+																							"fieldNo": "05695de1-35c8-4e27-82ba-a1823ecc9f06",
+																							"fieldName": "flexLogon",
+																							"fieldParent": "c2fc2bd7-8641-42b4-c53c-c8db8f2b6e4c",
+																							"fieldType": "sap.m.FlexBox",
+																							"script": "",
+																							"customComponent": false,
+																							"request": [],
+																							"response": [],
+																							"attributes": [
+																								{
+																									"attribute": "direction",
+																									"grouping": "Properties",
+																									"value": "Column",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "renderType",
+																									"grouping": "Properties",
+																									"value": "Bare",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "alignItems",
+																									"grouping": "Properties",
+																									"value": "Center",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "alignContent",
+																									"grouping": "Properties",
+																									"value": "Center",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "styleClass",
+																									"grouping": "Properties",
+																									"value": "nepLogonContainer",
+																									"script": "",
+																									"translation": []
+																								}
+																							],
+																							"data": [
+																								{
+																									"fieldNo": "9fb8aa86-199e-4e72-b75a-72f88cb6b0dd",
+																									"fieldName": "backdropContainerLogon",
+																									"fieldParent": "05695de1-35c8-4e27-82ba-a1823ecc9f06",
+																									"fieldType": "sap.m.VBox",
+																									"script": "",
+																									"customComponent": false,
+																									"request": [],
+																									"response": [],
+																									"attributes": [
+																										{
+																											"attribute": "renderType",
+																											"grouping": "Properties",
+																											"value": "Bare",
+																											"script": "",
+																											"translation": []
+																										},
+																										{
+																											"attribute": "styleClass",
+																											"grouping": "Properties",
+																											"value": "nepBackdropContainer",
+																											"script": "",
+																											"translation": []
+																										}
+																									],
+																									"data": [
+																										{
+																											"fieldNo": "99eac47e-240b-490c-d1e6-3e07edfba426",
+																											"fieldName": "boxLogon",
+																											"fieldParent": "9fb8aa86-199e-4e72-b75a-72f88cb6b0dd",
+																											"fieldType": "sap.m.VBox",
+																											"script": "",
+																											"customComponent": false,
+																											"request": [],
+																											"response": [],
+																											"attributes": [
+																												{
+																													"attribute": "width",
+																													"grouping": "Properties",
+																													"value": "100%",
+																													"script": "",
+																													"translation": []
+																												},
+																												{
+																													"attribute": "renderType",
+																													"grouping": "Properties",
+																													"value": "Bare",
+																													"script": "",
+																													"translation": []
+																												},
+																												{
+																													"attribute": "styleClass",
+																													"grouping": "Properties",
+																													"value": "nepLogonLayout",
+																													"script": "",
+																													"translation": []
+																												}
+																											],
+																											"data": [
+																												{
+																													"fieldNo": "27",
+																													"fieldName": "formLogin",
+																													"fieldParent": "99eac47e-240b-490c-d1e6-3e07edfba426",
+																													"fieldType": "sap.ui.layout.form.SimpleForm",
+																													"script": "",
+																													"customComponent": false,
+																													"request": [],
+																													"response": [],
+																													"attributes": [
+																														{
+																															"attribute": "maxContainerCols",
+																															"grouping": "Properties",
+																															"value": "1",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "layout",
+																															"grouping": "Properties",
+																															"value": "ResponsiveGridLayout",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "labelSpanM",
+																															"grouping": "Properties",
+																															"value": "12",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "labelSpanL",
+																															"grouping": "Properties",
+																															"value": "12",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "editable",
+																															"grouping": "Properties",
+																															"value": "true",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "backgroundDesign",
+																															"grouping": "Properties",
+																															"value": "Transparent",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "styleClass",
+																															"grouping": "Properties",
+																															"value": "nepFormLogon",
+																															"script": "",
+																															"translation": []
+																														}
+																													],
+																													"data": [
+																														{
+																															"fieldNo": "72",
+																															"fieldName": "lblFormLoginSubTitle",
+																															"fieldParent": "27",
+																															"fieldType": "sap.m.Label",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "74",
+																															"fieldName": "boxSubTitle",
+																															"fieldParent": "27",
+																															"fieldType": "sap.m.VBox",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "renderType",
+																																	"grouping": "Properties",
+																																	"value": "Bare",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "styleClass",
+																																	"grouping": "Properties",
+																																	"value": "nepLogonSystemLayout",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": [
+																																{
+																																	"fieldNo": "24157717-1544-4057-851d-fbe3b593580e",
+																																	"fieldName": "txtLoginSubTitle1",
+																																	"fieldParent": "74",
+																																	"fieldType": "sap.m.Text",
+																																	"script": "",
+																																	"customComponent": false,
+																																	"request": [],
+																																	"response": [],
+																																	"attributes": [
+																																		{
+																																			"attribute": "text",
+																																			"grouping": "Properties",
+																																			"value": "DXP Open Edition",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "styleClass",
+																																			"grouping": "Properties",
+																																			"value": "nepLogonSystemName",
+																																			"script": "",
+																																			"translation": []
+																																		}
+																																	],
+																																	"data": []
+																																},
+																																{
+																																	"fieldNo": "19cb3784-ce67-486d-b70b-deb43a0b2299",
+																																	"fieldName": "txtLoginSubTitle2",
+																																	"fieldParent": "74",
+																																	"fieldType": "sap.m.Text",
+																																	"script": "",
+																																	"customComponent": false,
+																																	"request": [],
+																																	"response": [],
+																																	"attributes": [
+																																		{
+																																			"attribute": "text",
+																																			"grouping": "Properties",
+																																			"value": "Neptune Software",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "styleClass",
+																																			"grouping": "Properties",
+																																			"value": "nepLogonSystemDescription",
+																																			"script": "",
+																																			"translation": []
+																																		}
+																																	],
+																																	"data": []
+																																}
+																															]
+																														},
+																														{
+																															"fieldNo": "53",
+																															"fieldName": "lblFormLogin",
+																															"fieldParent": "27",
+																															"fieldType": "sap.m.Label",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "text",
+																																	"grouping": "Properties",
+																																	"value": "Login Provider",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "35",
+																															"fieldName": "inLoginTypes",
+																															"fieldParent": "27",
+																															"fieldType": "sap.m.Select",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "width",
+																																	"grouping": "Properties",
+																																	"value": "100%",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "visible",
+																																	"grouping": "Properties",
+																																	"value": "false",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "change",
+																																	"grouping": "Events",
+																																	"value": "logonScreen.setInputFields();",
+																																	"script": "logonScreen.setInputFields();",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "54",
+																															"fieldName": "lblUsername",
+																															"fieldParent": "27",
+																															"fieldType": "sap.m.Label",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "text",
+																																	"grouping": "Properties",
+																																	"value": "Username",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "38",
+																															"fieldName": "inLoginName",
+																															"fieldParent": "27",
+																															"fieldType": "sap.m.Input",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "liveChange",
+																																	"grouping": "Events",
+																																	"value": "this.setValueState();",
+																																	"script": "this.setValueState();",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "55",
+																															"fieldName": "lblPassword",
+																															"fieldParent": "27",
+																															"fieldType": "sap.m.Label",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "text",
+																																	"grouping": "Properties",
+																																	"value": "Password",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "39",
+																															"fieldName": "inLoginPassword",
+																															"fieldParent": "27",
+																															"fieldType": "sap.m.Input",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "type",
+																																	"grouping": "Properties",
+																																	"value": "Password",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "placeholder",
+																																	"grouping": "Properties",
+																																	"value": "Password",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "submit",
+																																	"grouping": "Events",
+																																	"value": "butLogin.firePress();",
+																																	"script": "butLogin.firePress();",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "liveChange",
+																																	"grouping": "Events",
+																																	"value": "this.setValueState();",
+																																	"script": "this.setValueState();",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "58",
+																															"fieldName": "lblActions",
+																															"fieldParent": "27",
+																															"fieldType": "sap.m.Label",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "1c0634bb-d337-42f8-d09f-791e4d329c72",
+																															"fieldName": "boxActions",
+																															"fieldParent": "27",
+																															"fieldType": "sap.m.HBox",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "renderType",
+																																	"grouping": "Properties",
+																																	"value": "Bare",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "justifyContent",
+																																	"grouping": "Properties",
+																																	"value": "SpaceBetween",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "alignItems",
+																																	"grouping": "Properties",
+																																	"value": "Center",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "styleClass",
+																																	"grouping": "Properties",
+																																	"value": "nepLogonButtonLayout",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": [
+																																{
+																																	"fieldNo": "40",
+																																	"fieldName": "butLogin",
+																																	"fieldParent": "1c0634bb-d337-42f8-d09f-791e4d329c72",
+																																	"fieldType": "sap.m.Button",
+																																	"script": "",
+																																	"customComponent": false,
+																																	"request": [],
+																																	"response": [],
+																																	"attributes": [
+																																		{
+																																			"attribute": "text",
+																																			"grouping": "Properties",
+																																			"value": "Sign in",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "press",
+																																			"grouping": "Events",
+																																			"value": "Anonymous Function",
+																																			"script": "file://event/sap.m.Button/butLogin/press.script",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "styleClass",
+																																			"grouping": "Properties",
+																																			"value": "nepLogonButtonBtn",
+																																			"script": "",
+																																			"translation": []
+																																		}
+																																	],
+																																	"data": []
+																																}
+																															]
+																														},
+																														{
+																															"fieldNo": "2c755b61-0e80-4724-aef6-794abd124c3b",
+																															"fieldName": "boxLinks",
+																															"fieldParent": "27",
+																															"fieldType": "sap.m.HBox",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "width",
+																																	"grouping": "Properties",
+																																	"value": "100%",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "renderType",
+																																	"grouping": "Properties",
+																																	"value": "Bare",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "justifyContent",
+																																	"grouping": "Properties",
+																																	"value": "Center",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "alignItems",
+																																	"grouping": "Properties",
+																																	"value": "Center",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "styleClass",
+																																	"grouping": "Properties",
+																																	"value": "nepLogonButtonLayout nepLogonButtonLink",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": [
+																																{
+																																	"fieldNo": "55f73226-4376-4350-a23c-1094d581f1a1",
+																																	"fieldName": "linkCode",
+																																	"fieldParent": "2c755b61-0e80-4724-aef6-794abd124c3b",
+																																	"fieldType": "sap.m.Link",
+																																	"script": "",
+																																	"customComponent": false,
+																																	"request": [],
+																																	"response": [],
+																																	"attributes": [
+																																		{
+																																			"attribute": "visible",
+																																			"grouping": "Properties",
+																																			"value": "false",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "text",
+																																			"grouping": "Properties",
+																																			"value": "Get Code",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "press",
+																																			"grouping": "Events",
+																																			"value": "Anonymous Function",
+																																			"script": "file://event/sap.m.Link/linkCode/press.script",
+																																			"translation": []
+																																		}
+																																	],
+																																	"data": []
+																																},
+																																{
+																																	"fieldNo": "b2b528b9-31d7-4c13-9b61-6b158d744a9f",
+																																	"fieldName": "linkSep",
+																																	"fieldParent": "2c755b61-0e80-4724-aef6-794abd124c3b",
+																																	"fieldType": "sap.m.Text",
+																																	"script": "",
+																																	"customComponent": false,
+																																	"request": [],
+																																	"response": [],
+																																	"attributes": [
+																																		{
+																																			"attribute": "visible",
+																																			"grouping": "Properties",
+																																			"value": "false",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "text",
+																																			"grouping": "Properties",
+																																			"value": "|",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "styleClassMargin",
+																																			"grouping": "Properties",
+																																			"value": "sapUiTinyMarginBeginEnd",
+																																			"script": "",
+																																			"translation": []
+																																		}
+																																	],
+																																	"data": []
+																																},
+																																{
+																																	"fieldNo": "8eb93b51-29ae-4214-9b4f-dcada6f8ad85",
+																																	"fieldName": "linkLogoff",
+																																	"fieldParent": "2c755b61-0e80-4724-aef6-794abd124c3b",
+																																	"fieldType": "sap.m.Link",
+																																	"script": "",
+																																	"customComponent": false,
+																																	"request": [],
+																																	"response": [],
+																																	"attributes": [
+																																		{
+																																			"attribute": "visible",
+																																			"grouping": "Properties",
+																																			"value": "false",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "text",
+																																			"grouping": "Properties",
+																																			"value": "Sign Out",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "press",
+																																			"grouping": "Events",
+																																			"value": "Anonymous Function",
+																																			"script": "file://event/sap.m.Link/linkLogoff/press.script",
+																																			"translation": []
+																																		}
+																																	],
+																																	"data": []
+																																},
+																																{
+																																	"fieldNo": "aefb5a59-3d1b-4ada-c9f9-5f1d7f9c1b48",
+																																	"fieldName": "linkSep1",
+																																	"fieldParent": "2c755b61-0e80-4724-aef6-794abd124c3b",
+																																	"fieldType": "sap.m.Text",
+																																	"script": "",
+																																	"customComponent": false,
+																																	"request": [],
+																																	"response": [],
+																																	"attributes": [
+																																		{
+																																			"attribute": "visible",
+																																			"grouping": "Properties",
+																																			"value": "false",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "text",
+																																			"grouping": "Properties",
+																																			"value": "|",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "styleClassMargin",
+																																			"grouping": "Properties",
+																																			"value": "sapUiTinyMarginBeginEnd",
+																																			"script": "",
+																																			"translation": []
+																																		}
+																																	],
+																																	"data": []
+																																},
+																																{
+																																	"fieldNo": "6acd0bca-0ab3-4968-c32d-08a2092d63ab",
+																																	"fieldName": "linkForgot",
+																																	"fieldParent": "2c755b61-0e80-4724-aef6-794abd124c3b",
+																																	"fieldType": "sap.m.Link",
+																																	"script": "",
+																																	"customComponent": false,
+																																	"request": [],
+																																	"response": [],
+																																	"attributes": [
+																																		{
+																																			"attribute": "text",
+																																			"grouping": "Properties",
+																																			"value": "Forgot Password ",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "press",
+																																			"grouping": "Events",
+																																			"value": "Anonymous Function",
+																																			"script": "file://event/sap.m.Link/linkForgot/press.script",
+																																			"translation": []
+																																		}
+																																	],
+																																	"data": []
+																																}
+																															]
+																														}
+																													]
+																												},
+																												{
+																													"fieldNo": "670edddc-4d72-4ed9-e159-6a21d0eb1333",
+																													"fieldName": "formForgot",
+																													"fieldParent": "99eac47e-240b-490c-d1e6-3e07edfba426",
+																													"fieldType": "sap.ui.layout.form.SimpleForm",
+																													"script": "",
+																													"customComponent": false,
+																													"request": [],
+																													"response": [],
+																													"attributes": [
+																														{
+																															"attribute": "visible",
+																															"grouping": "Properties",
+																															"value": "false",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "maxContainerCols",
+																															"grouping": "Properties",
+																															"value": "1",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "layout",
+																															"grouping": "Properties",
+																															"value": "ResponsiveGridLayout",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "labelSpanM",
+																															"grouping": "Properties",
+																															"value": "12",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "labelSpanL",
+																															"grouping": "Properties",
+																															"value": "12",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "editable",
+																															"grouping": "Properties",
+																															"value": "true",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "backgroundDesign",
+																															"grouping": "Properties",
+																															"value": "Transparent",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "styleClass",
+																															"grouping": "Properties",
+																															"value": "nepFormLogon",
+																															"script": "",
+																															"translation": []
+																														}
+																													],
+																													"data": [
+																														{
+																															"fieldNo": "fba8de36-9a69-4102-e5fc-9f3f5b8774c1",
+																															"fieldName": "lblFormForgotSubTitle",
+																															"fieldParent": "670edddc-4d72-4ed9-e159-6a21d0eb1333",
+																															"fieldType": "sap.m.Label",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "styleClassMargin",
+																																	"grouping": "Properties",
+																																	"value": "sapUiTinyMarginBottom",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "cbcdbe2f-d3cd-4978-d921-93056093de6a",
+																															"fieldName": "boxForgotSubTitle",
+																															"fieldParent": "670edddc-4d72-4ed9-e159-6a21d0eb1333",
+																															"fieldType": "sap.m.VBox",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "renderType",
+																																	"grouping": "Properties",
+																																	"value": "Bare",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "styleClass",
+																																	"grouping": "Properties",
+																																	"value": "nepLogonSystemLayout",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": [
+																																{
+																																	"fieldNo": "95ed419f-eab5-420c-ad76-610d56b6af70",
+																																	"fieldName": "txtFormForgotSubTitle1",
+																																	"fieldParent": "cbcdbe2f-d3cd-4978-d921-93056093de6a",
+																																	"fieldType": "sap.m.Text",
+																																	"script": "",
+																																	"customComponent": false,
+																																	"request": [],
+																																	"response": [],
+																																	"attributes": [
+																																		{
+																																			"attribute": "text",
+																																			"grouping": "Properties",
+																																			"value": "DXP Open Edition",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "styleClass",
+																																			"grouping": "Properties",
+																																			"value": "nepLogonSystemName",
+																																			"script": "",
+																																			"translation": []
+																																		}
+																																	],
+																																	"data": []
+																																},
+																																{
+																																	"fieldNo": "d9065c80-9226-4796-c25f-b54ea997b02b",
+																																	"fieldName": "txtFormForgotSubTitle2",
+																																	"fieldParent": "cbcdbe2f-d3cd-4978-d921-93056093de6a",
+																																	"fieldType": "sap.m.Text",
+																																	"script": "",
+																																	"customComponent": false,
+																																	"request": [],
+																																	"response": [],
+																																	"attributes": [
+																																		{
+																																			"attribute": "text",
+																																			"grouping": "Properties",
+																																			"value": "Neptune Software",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "styleClass",
+																																			"grouping": "Properties",
+																																			"value": "nepLogonSystemDescription",
+																																			"script": "",
+																																			"translation": []
+																																		}
+																																	],
+																																	"data": []
+																																}
+																															]
+																														},
+																														{
+																															"fieldNo": "6f91deda-94cf-49ce-c489-81537c871797",
+																															"fieldName": "lblForgotUsername",
+																															"fieldParent": "670edddc-4d72-4ed9-e159-6a21d0eb1333",
+																															"fieldType": "sap.m.Label",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "text",
+																																	"grouping": "Properties",
+																																	"value": "Username",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "required",
+																																	"grouping": "Properties",
+																																	"value": "true",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "e78609dc-3507-4d56-e8d9-7f043370c4de",
+																															"fieldName": "inForgotUsername",
+																															"fieldParent": "670edddc-4d72-4ed9-e159-6a21d0eb1333",
+																															"fieldType": "sap.m.Input",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "liveChange",
+																																	"grouping": "Events",
+																																	"value": "this.setValueState();",
+																																	"script": "this.setValueState();",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "6ef4913a-f4f4-44b4-a90e-f6fc66364552",
+																															"fieldName": "lblActionsForgot",
+																															"fieldParent": "670edddc-4d72-4ed9-e159-6a21d0eb1333",
+																															"fieldType": "sap.m.Label",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "a40b2af4-f2f2-4d75-cf97-3784f8f1fc4a",
+																															"fieldName": "boxActionsForgot",
+																															"fieldParent": "670edddc-4d72-4ed9-e159-6a21d0eb1333",
+																															"fieldType": "sap.m.HBox",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "renderType",
+																																	"grouping": "Properties",
+																																	"value": "Bare",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "justifyContent",
+																																	"grouping": "Properties",
+																																	"value": "SpaceBetween",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "alignItems",
+																																	"grouping": "Properties",
+																																	"value": "Center",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "styleClass",
+																																	"grouping": "Properties",
+																																	"value": "nepLogonButtonLayout",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": [
+																																{
+																																	"fieldNo": "bdd0a1be-703f-4b31-d48f-83a273d369c1",
+																																	"fieldName": "butSubmitForgot",
+																																	"fieldParent": "a40b2af4-f2f2-4d75-cf97-3784f8f1fc4a",
+																																	"fieldType": "sap.m.Button",
+																																	"script": "",
+																																	"customComponent": false,
+																																	"request": [],
+																																	"response": [],
+																																	"attributes": [
+																																		{
+																																			"attribute": "text",
+																																			"grouping": "Properties",
+																																			"value": "Submit",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "press",
+																																			"grouping": "Events",
+																																			"value": "Anonymous Function",
+																																			"script": "file://event/sap.m.Button/butSubmitForgot/press.script",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "styleClass",
+																																			"grouping": "Properties",
+																																			"value": "nepLogonButtonBtn",
+																																			"script": "",
+																																			"translation": []
+																																		}
+																																	],
+																																	"data": []
+																																},
+																																{
+																																	"fieldNo": "05c1140c-61b8-49c1-f2c9-d5197aa09847",
+																																	"fieldName": "butCancelForgot",
+																																	"fieldParent": "a40b2af4-f2f2-4d75-cf97-3784f8f1fc4a",
+																																	"fieldType": "sap.m.Button",
+																																	"script": "",
+																																	"customComponent": false,
+																																	"request": [],
+																																	"response": [],
+																																	"attributes": [
+																																		{
+																																			"attribute": "press",
+																																			"grouping": "Events",
+																																			"value": "logonScreen.showForm(`login`);",
+																																			"script": "logonScreen.showForm(`login`);",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "text",
+																																			"grouping": "Properties",
+																																			"value": "Cancel",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "styleClass",
+																																			"grouping": "Properties",
+																																			"value": "nepLogonButtonBtn",
+																																			"script": "",
+																																			"translation": []
+																																		}
+																																	],
+																																	"data": []
+																																}
+																															]
+																														}
+																													]
+																												},
+																												{
+																													"fieldNo": "ab98c1f8-ebbb-4e83-cf2b-18e0b22729ed",
+																													"fieldName": "formNewPassword",
+																													"fieldParent": "99eac47e-240b-490c-d1e6-3e07edfba426",
+																													"fieldType": "sap.ui.layout.form.SimpleForm",
+																													"script": "",
+																													"customComponent": false,
+																													"request": [],
+																													"response": [],
+																													"attributes": [
+																														{
+																															"attribute": "visible",
+																															"grouping": "Properties",
+																															"value": "false",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "maxContainerCols",
+																															"grouping": "Properties",
+																															"value": "1",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "layout",
+																															"grouping": "Properties",
+																															"value": "ResponsiveGridLayout",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "labelSpanM",
+																															"grouping": "Properties",
+																															"value": "12",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "labelSpanL",
+																															"grouping": "Properties",
+																															"value": "12",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "backgroundDesign",
+																															"grouping": "Properties",
+																															"value": "Transparent",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "styleClass",
+																															"grouping": "Properties",
+																															"value": "nepFormLogon",
+																															"script": "",
+																															"translation": []
+																														}
+																													],
+																													"data": [
+																														{
+																															"fieldNo": "526aab47-aa36-4cfd-cabb-fe5824b2cfe0",
+																															"fieldName": "txtFormNewPassRequired",
+																															"fieldParent": "ab98c1f8-ebbb-4e83-cf2b-18e0b22729ed",
+																															"fieldType": "sap.m.MessageStrip",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "text",
+																																	"grouping": "Properties",
+																																	"value": "You are required to reset your password.",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "type",
+																																	"grouping": "Properties",
+																																	"value": "Error",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "styleClass",
+																																	"grouping": "Properties",
+																																	"value": "nepPassRequired",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "styleClassPadding",
+																																	"grouping": "Properties",
+																																	"value": "sapUiNoContentPadding",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "enableCompactMode",
+																																	"grouping": "Properties",
+																																	"value": "true",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "enableCozyMode",
+																																	"grouping": "Properties",
+																																	"value": "false",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "f742ba85-3be8-4d60-90c4-e2f90cbf2d5d",
+																															"fieldName": "lblFormNewPassSubTitle",
+																															"fieldParent": "ab98c1f8-ebbb-4e83-cf2b-18e0b22729ed",
+																															"fieldType": "sap.m.Label",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "styleClassMargin",
+																																	"grouping": "Properties",
+																																	"value": "sapUiTinyMarginBottom",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "167371b5-7d87-483e-baf2-7a9da7c45beb",
+																															"fieldName": "boxNewPassSubTitle",
+																															"fieldParent": "ab98c1f8-ebbb-4e83-cf2b-18e0b22729ed",
+																															"fieldType": "sap.m.VBox",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "renderType",
+																																	"grouping": "Properties",
+																																	"value": "Bare",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "styleClass",
+																																	"grouping": "Properties",
+																																	"value": "nepLogonSystemLayout",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": [
+																																{
+																																	"fieldNo": "95b43c72-63fb-4248-8262-80dddd913b22",
+																																	"fieldName": "txtFormNewPassExpired",
+																																	"fieldParent": "167371b5-7d87-483e-baf2-7a9da7c45beb",
+																																	"fieldType": "sap.m.Text",
+																																	"script": "",
+																																	"customComponent": false,
+																																	"request": [],
+																																	"response": [],
+																																	"attributes": [
+																																		{
+																																			"attribute": "text",
+																																			"grouping": "Properties",
+																																			"value": "Your password has expired.",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "styleClass",
+																																			"grouping": "Properties",
+																																			"value": "nepLogonSystemName",
+																																			"script": "",
+																																			"translation": []
+																																		}
+																																	],
+																																	"data": []
+																																},
+																																{
+																																	"fieldNo": "cc31acaf-4920-46b3-efbb-f7f110cbec0c",
+																																	"fieldName": "txtFormNewPassSubTitle2",
+																																	"fieldParent": "167371b5-7d87-483e-baf2-7a9da7c45beb",
+																																	"fieldType": "sap.m.Text",
+																																	"script": "",
+																																	"customComponent": false,
+																																	"request": [],
+																																	"response": [],
+																																	"attributes": [
+																																		{
+																																			"attribute": "text",
+																																			"grouping": "Properties",
+																																			"value": "Please set a new password below.",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "styleClass",
+																																			"grouping": "Properties",
+																																			"value": "nepLogonSystemDescription",
+																																			"script": "",
+																																			"translation": []
+																																		}
+																																	],
+																																	"data": []
+																																}
+																															]
+																														},
+																														{
+																															"fieldNo": "8cb73af2-e557-46ff-adb4-741441801c31",
+																															"fieldName": "lblNewPassword",
+																															"fieldParent": "ab98c1f8-ebbb-4e83-cf2b-18e0b22729ed",
+																															"fieldType": "sap.m.Label",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "text",
+																																	"grouping": "Properties",
+																																	"value": "New password",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "2f0a6887-e44d-4937-e1f6-b81dbba8cb59",
+																															"fieldName": "inNewPassword",
+																															"fieldParent": "ab98c1f8-ebbb-4e83-cf2b-18e0b22729ed",
+																															"fieldType": "sap.m.Input",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "type",
+																																	"grouping": "Properties",
+																																	"value": "Password",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "liveChange",
+																																	"grouping": "Events",
+																																	"value": "this.setValueState();",
+																																	"script": "this.setValueState();",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "2d3adc6f-5581-49f3-9301-37efa4533d33",
+																															"fieldName": "lblNewPassword2",
+																															"fieldParent": "ab98c1f8-ebbb-4e83-cf2b-18e0b22729ed",
+																															"fieldType": "sap.m.Label",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "text",
+																																	"grouping": "Properties",
+																																	"value": "Repeat password",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "501a1d5a-58db-49e2-f2d3-8b3040298861",
+																															"fieldName": "inNewPassword2",
+																															"fieldParent": "ab98c1f8-ebbb-4e83-cf2b-18e0b22729ed",
+																															"fieldType": "sap.m.Input",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "type",
+																																	"grouping": "Properties",
+																																	"value": "Password",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "submit",
+																																	"grouping": "Events",
+																																	"value": "butSubmitNewPass.firePress();",
+																																	"script": "butSubmitNewPass.firePress();",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "liveChange",
+																																	"grouping": "Events",
+																																	"value": "this.setValueState();",
+																																	"script": "this.setValueState();",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "2a39ecab-ea7a-4e72-f64d-cee111368639",
+																															"fieldName": "boxActionsNewPass",
+																															"fieldParent": "ab98c1f8-ebbb-4e83-cf2b-18e0b22729ed",
+																															"fieldType": "sap.m.HBox",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "renderType",
+																																	"grouping": "Properties",
+																																	"value": "Bare",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "justifyContent",
+																																	"grouping": "Properties",
+																																	"value": "SpaceBetween",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "alignItems",
+																																	"grouping": "Properties",
+																																	"value": "Center",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "styleClass",
+																																	"grouping": "Properties",
+																																	"value": "nepLogonButtonLayout",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": [
+																																{
+																																	"fieldNo": "1afbc258-cbb0-4112-b673-f122d0e37ad3",
+																																	"fieldName": "butSubmitNewPass",
+																																	"fieldParent": "2a39ecab-ea7a-4e72-f64d-cee111368639",
+																																	"fieldType": "sap.m.Button",
+																																	"script": "",
+																																	"customComponent": false,
+																																	"request": [],
+																																	"response": [],
+																																	"attributes": [
+																																		{
+																																			"attribute": "text",
+																																			"grouping": "Properties",
+																																			"value": "Submit",
+																																			"script": "",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "press",
+																																			"grouping": "Events",
+																																			"value": "logonScreen.resetPassword();",
+																																			"script": "logonScreen.resetPassword();",
+																																			"translation": []
+																																		},
+																																		{
+																																			"attribute": "styleClass",
+																																			"grouping": "Properties",
+																																			"value": "nepLogonButtonBtn",
+																																			"script": "",
+																																			"translation": []
+																																		}
+																																	],
+																																	"data": []
+																																}
+																															]
+																														}
+																													]
+																												},
+																												{
+																													"fieldNo": "e1196a08-96f2-4bd5-b4b2-976e334b313e",
+																													"fieldName": "AppCache_boxBrandImgBottom",
+																													"fieldParent": "99eac47e-240b-490c-d1e6-3e07edfba426",
+																													"fieldType": "sap.m.FlexBox",
+																													"description": "",
+																													"script": "",
+																													"customComponent": false,
+																													"request": [],
+																													"response": [],
+																													"attributes": [
+																														{
+																															"attribute": "justifyContent",
+																															"grouping": "Properties",
+																															"value": "Center",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "renderType",
+																															"grouping": "Properties",
+																															"value": "Bare",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "styleClass",
+																															"grouping": "Properties",
+																															"value": "nepPoweredBy nepPoweredByBottom",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "width",
+																															"grouping": "Properties",
+																															"value": "100%",
+																															"script": "",
+																															"translation": []
+																														}
+																													],
+																													"data": [
+																														{
+																															"fieldNo": "2d9b5cfc-9625-4e6b-b5a2-555b6532857b",
+																															"fieldName": "AppCacheShellBrandImgBottom",
+																															"fieldParent": "e1196a08-96f2-4bd5-b4b2-976e334b313e",
+																															"fieldType": "sap.m.Image",
+																															"description": "",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "densityAware",
+																																	"grouping": "Properties",
+																																	"value": "true",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "src",
+																																	"grouping": "Properties",
+																																	"value": "/public/images/connect/neptune-connect-powered-by-light.svg",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "styleClass",
+																																	"grouping": "Properties",
+																																	"value": "nepPoweredByImg",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														}
+																													]
+																												},
+																												{
+																													"fieldNo": "7b4afa0d-c32a-4c1a-f7c6-664ba539764d",
+																													"fieldName": "AppCache_boxLogonLink",
+																													"fieldParent": "99eac47e-240b-490c-d1e6-3e07edfba426",
+																													"fieldType": "sap.m.HBox",
+																													"script": "",
+																													"customComponent": false,
+																													"request": [],
+																													"response": [],
+																													"attributes": [
+																														{
+																															"attribute": "width",
+																															"grouping": "Properties",
+																															"value": "100%",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "renderType",
+																															"grouping": "Properties",
+																															"value": "Bare",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "justifyContent",
+																															"grouping": "Properties",
+																															"value": "Center",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "alignItems",
+																															"grouping": "Properties",
+																															"value": "Center",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "styleClass",
+																															"grouping": "Properties",
+																															"value": "nepLogonButtonLayout nepLogonButtonLink",
+																															"script": "",
+																															"translation": []
+																														},
+																														{
+																															"attribute": "visible",
+																															"grouping": "Properties",
+																															"value": "false",
+																															"script": "",
+																															"translation": []
+																														}
+																													],
+																													"data": [
+																														{
+																															"fieldNo": "9ade8e97-a1e2-4c80-fc47-5af29e7ccc85",
+																															"fieldName": "linkLoginText1",
+																															"fieldParent": "7b4afa0d-c32a-4c1a-f7c6-664ba539764d",
+																															"fieldType": "sap.m.Link",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "press",
+																																	"grouping": "Events",
+																																	"value": "Anonymous Function",
+																																	"script": "file://event/sap.m.Link/linkLoginText1/press.js",
+																																	"language": "javascript",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "visible",
+																																	"grouping": "Properties",
+																																	"value": "false",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "5306e703-c277-4c69-b08e-d3833598eafd",
+																															"fieldName": "linkLoginSep1",
+																															"fieldParent": "7b4afa0d-c32a-4c1a-f7c6-664ba539764d",
+																															"fieldType": "sap.m.Text",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "visible",
+																																	"grouping": "Properties",
+																																	"value": "false",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "text",
+																																	"grouping": "Properties",
+																																	"value": "|",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "styleClassMargin",
+																																	"grouping": "Properties",
+																																	"value": "sapUiTinyMarginBeginEnd",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "e666724a-5969-41b5-8c80-3dd3444e5e99",
+																															"fieldName": "linkLoginText2",
+																															"fieldParent": "7b4afa0d-c32a-4c1a-f7c6-664ba539764d",
+																															"fieldType": "sap.m.Link",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "press",
+																																	"grouping": "Events",
+																																	"value": "Anonymous Function",
+																																	"script": "file://event/sap.m.Link/linkLoginText2/press.js",
+																																	"language": "javascript",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "visible",
+																																	"grouping": "Properties",
+																																	"value": "false",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "b1602b42-2f82-4553-c68c-d15d7f375af1",
+																															"fieldName": "linkLoginSep2",
+																															"fieldParent": "7b4afa0d-c32a-4c1a-f7c6-664ba539764d",
+																															"fieldType": "sap.m.Text",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "visible",
+																																	"grouping": "Properties",
+																																	"value": "false",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "text",
+																																	"grouping": "Properties",
+																																	"value": "|",
+																																	"script": "",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "styleClassMargin",
+																																	"grouping": "Properties",
+																																	"value": "sapUiTinyMarginBeginEnd",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														},
+																														{
+																															"fieldNo": "54fb4eb8-5ca7-431d-d9d9-5fbf46b133e8",
+																															"fieldName": "linkLoginText3",
+																															"fieldParent": "7b4afa0d-c32a-4c1a-f7c6-664ba539764d",
+																															"fieldType": "sap.m.Link",
+																															"script": "",
+																															"customComponent": false,
+																															"request": [],
+																															"response": [],
+																															"attributes": [
+																																{
+																																	"attribute": "press",
+																																	"grouping": "Events",
+																																	"value": "Anonymous Function",
+																																	"script": "file://event/sap.m.Link/linkLoginText3/press.js",
+																																	"language": "javascript",
+																																	"translation": []
+																																},
+																																{
+																																	"attribute": "visible",
+																																	"grouping": "Properties",
+																																	"value": "false",
+																																	"script": "",
+																																	"translation": []
+																																}
+																															],
+																															"data": []
+																														}
+																													]
+																												}
+																											]
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "b68f5f36-252c-419a-87a2-963c2cdf2f57",
+							"fieldName": "launchpadStyleDiv",
+							"fieldParent": "21b6b143-2349-43ce-fb1f-f7403ee3fe36",
+							"fieldType": "sap.ui.core.HTML",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "22d4210a-eed0-419f-eddb-e37b0bca093d",
+									"fieldName": "html",
+									"fieldParent": "b68f5f36-252c-419a-87a2-963c2cdf2f57",
+									"fieldType": "neptune.Html",
+									"script": "<link id=\"launchpadStyleDiv\" rel=\"stylesheet\" href=\"/public/css/launchpad.css\" type=\"text/css\" charset=\"utf-8\">",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "fa0268b0-7573-4fe4-a5d6-a9222b6c2bae",
+							"fieldName": "NeptuneStyleCSSDiv",
+							"fieldParent": "21b6b143-2349-43ce-fb1f-f7403ee3fe36",
+							"fieldType": "sap.ui.core.HTML",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "afterRendering",
+									"grouping": "Events",
+									"value": "afterTheme();",
+									"script": "afterTheme();",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "05b2b531-5114-4f9a-f755-250276ddeade",
+									"fieldName": "html",
+									"fieldParent": "fa0268b0-7573-4fe4-a5d6-a9222b6c2bae",
+									"fieldType": "neptune.Html",
+									"script": "<style id=\"NeptuneStyleDiv\"></style>",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "f2c24f06-8712-4cc4-c887-2443e51b07b5",
+							"fieldName": "NeptuneStyleDiv",
+							"fieldParent": "21b6b143-2349-43ce-fb1f-f7403ee3fe36",
+							"fieldType": "sap.ui.core.HTML",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "8ae10bb3-76cc-480e-81ad-78ac3920fbf1",
+									"fieldName": "html",
+									"fieldParent": "f2c24f06-8712-4cc4-c887-2443e51b07b5",
+									"fieldType": "neptune.Html",
+									"script": "<style id=\"NeptuneStyleCSSDiv\"></style>",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "5f620b70-3b51-47f4-ab18-661c52722d99",
+							"fieldName": "loginStyle",
+							"fieldParent": "21b6b143-2349-43ce-fb1f-f7403ee3fe36",
+							"fieldType": "sap.ui.core.HTML",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "5fc0f931-69f1-4bd1-9986-bea6bf863bbb",
+									"fieldName": "html",
+									"fieldParent": "5f620b70-3b51-47f4-ab18-661c52722d99",
+									"fieldType": "neptune.Html",
+									"script": "file://script/neptune.Html/html.script",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "90900d6f-67f7-4009-f9c2-a54293c4489b",
+					"fieldName": "Dialogs",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "00972fc5-f87b-4c88-b2a1-b13e805d7ebe",
+							"fieldName": "diaTextClose",
+							"fieldParent": "90900d6f-67f7-4009-f9c2-a54293c4489b",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Close",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "diaText.close();",
+									"script": "diaText.close();",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "6f73ecf6-c624-4780-aa67-022219776fff",
+							"fieldName": "diaText",
+							"fieldParent": "90900d6f-67f7-4009-f9c2-a54293c4489b",
+							"fieldType": "sap.m.Dialog",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClassPadding",
+									"grouping": "Properties",
+									"value": "sapUiContentPadding",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "resizable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "draggable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "contentWidth",
+									"grouping": "Properties",
+									"value": "800px",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "contentHeight",
+									"grouping": "Properties",
+									"value": "600px",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "endButton",
+									"grouping": "Associations",
+									"value": "diaTextClose",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "03c3f26d-4500-4852-9d52-b92f24de7bb7",
+									"fieldName": "textLoginDiv",
+									"fieldParent": "6f73ecf6-c624-4780-aa67-022219776fff",
+									"fieldType": "sap.ui.core.HTML",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "7fe7fd6e-6995-482c-e87e-f4f55486fde9",
+											"fieldName": "html",
+											"fieldParent": "03c3f26d-4500-4852-9d52-b92f24de7bb7",
+											"fieldType": "neptune.Html",
+											"script": "<div id=\"textLoginDiv\" style=\"height:100%; width:100%\"></div>",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "d31445cb-dd23-4f3d-f861-87b3434ac340",
+							"fieldName": "diaPopupBlockedClose",
+							"fieldParent": "90900d6f-67f7-4009-f9c2-a54293c4489b",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Close",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "diaPopupBlocked.close();",
+									"script": "diaPopupBlocked.close();",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "d89745b1-27e2-4826-ac96-c809415e7f6c",
+							"fieldName": "diaPopupBlocked",
+							"fieldParent": "90900d6f-67f7-4009-f9c2-a54293c4489b",
+							"fieldType": "sap.m.Dialog",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Popup Blocked",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "icon",
+									"grouping": "Properties",
+									"value": "sap-icon://popup-window",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "contentWidth",
+									"grouping": "Properties",
+									"value": "400px",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "endButton",
+									"grouping": "Associations",
+									"value": "diaPopupBlockedClose",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "0a9a656c-ecb2-460b-9591-f03d81c1921a",
+									"fieldName": "diaPopupBlockedText",
+									"fieldParent": "d89745b1-27e2-4826-ac96-c809415e7f6c",
+									"fieldType": "sap.m.Text",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Popup to Sign In was blocked. Please allow that popup to open. Close any existing popups, and click on the Sign In button again to continue.",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiMediumMargin",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "a9c2a4ec-38d0-4d8e-dea4-b59a9ec375e8",
+					"fieldName": "Functions",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "40bf6d41-6289-4e24-a4d2-45d770d80016",
+							"fieldName": "helpers",
+							"fieldParent": "a9c2a4ec-38d0-4d8e-dea4-b59a9ec375e8",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Functions/helpers.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "9c4faeee-6dab-4012-dcb2-cbcfaf173532",
+							"fieldName": "logonSAP",
+							"fieldParent": "a9c2a4ec-38d0-4d8e-dea4-b59a9ec375e8",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Functions/logonSAP.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "521b952a-dc8a-48da-d1bc-facc55d67a7e",
+							"fieldName": "logonOpenIDConnect",
+							"fieldParent": "a9c2a4ec-38d0-4d8e-dea4-b59a9ec375e8",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Functions/logonOpenIDConnect.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "b380a826-4b8f-4fa6-c7ad-4d949af0610d",
+							"fieldName": "logonLocal",
+							"fieldParent": "a9c2a4ec-38d0-4d8e-dea4-b59a9ec375e8",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Functions/logonLocal.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "9602b5f8-fb40-4a77-d89f-77fc47da3e49",
+							"fieldName": "logonLDAP",
+							"fieldParent": "a9c2a4ec-38d0-4d8e-dea4-b59a9ec375e8",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Functions/logonLDAP.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "79992c7b-d921-4a26-db53-beec8f27b5fb",
+							"fieldName": "logonSAML",
+							"fieldParent": "a9c2a4ec-38d0-4d8e-dea4-b59a9ec375e8",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Functions/logonSAML.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "e58b4abd-390c-4475-8881-cd2bf4b48607",
+							"fieldName": "logonAzure",
+							"fieldParent": "a9c2a4ec-38d0-4d8e-dea4-b59a9ec375e8",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Functions/logonAzure.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "6aa97ddb-43c0-4f41-d523-ebebd0591c44",
+							"fieldName": "logonOAuth2",
+							"fieldParent": "a9c2a4ec-38d0-4d8e-dea4-b59a9ec375e8",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Functions/logonOAuth2.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "a227a282-54d5-4725-84d6-06ab8609264f",
+							"fieldName": "logonScreen",
+							"fieldParent": "a9c2a4ec-38d0-4d8e-dea4-b59a9ec375e8",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Functions/logonScreen.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "7",
+							"fieldName": "Init",
+							"fieldParent": "a9c2a4ec-38d0-4d8e-dea4-b59a9ec375e8",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Functions/Init.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "4a03e8fa-730e-4af9-d6cd-53f6bc784b7a",
+							"fieldName": "customSetup",
+							"fieldParent": "a9c2a4ec-38d0-4d8e-dea4-b59a9ec375e8",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Functions/customSetup.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "b4c5f2b0-c250-4971-db74-2224bba13fe7",
+							"fieldName": "logonPopup",
+							"fieldParent": "a9c2a4ec-38d0-4d8e-dea4-b59a9ec375e8",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Functions/logonPopup.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "f546b2c4-8ef3-4bd6-bc2c-32dd64cdc2bd",
+							"fieldName": "sessionNonce",
+							"fieldParent": "a9c2a4ec-38d0-4d8e-dea4-b59a9ec375e8",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Functions/sessionNonce.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "15",
+					"fieldName": "Texts",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "14",
+							"fieldName": "txtWrongUsernamePassword",
+							"fieldParent": "15",
+							"fieldType": "sap.m.Text",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Wrong username/password combination",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.10.15.1215",
+	"application": "planet9_login",
+	"title": "Login - Neptune DXP Open Edition",
+	"description": "Login - Neptune DXP Open Edition",
+	"enableFileStorage": true,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": true,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "neptune_horizon_dark",
+	"ui5_version": "1.120",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": "file:///compiledCss.css",
+	"header": "file:///header.html",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": true,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"package": "05fe7029-dd8a-ef11-b3c6-e8c829417d3b",
+	"apis": []
+}

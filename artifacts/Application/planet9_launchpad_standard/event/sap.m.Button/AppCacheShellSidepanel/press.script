@@ -1,0 +1,19 @@
+sap.n.Launchpad.settingsMenuClose();
+
+if (launchpadContentSideApp.getWidth() === "0px" || sap.n.Launchpad.sidepanelOpenMode() === "dialog") {
+
+    const dataTile = sap.n.Launchpad.currentTile;
+
+    if (!!dataTile && dataTile.sidepanelApp) {
+        sap.n.Shell.loadSidepanel(dataTile.sidepanelApp, {
+            tabTitle: dataTile.sidepanelTitle,
+            tabId: dataTile.id
+        });
+
+    } else {
+        sap.n.Launchpad.sidepanelOpen();
+    }
+
+} else {
+    sap.n.Launchpad.sidepanelClose();
+}

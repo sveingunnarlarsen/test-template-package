@@ -1,0 +1,29 @@
+var overflowItems = [];
+
+for (var i = menuHidden.getItems().length; i > 0; i--) {
+    var menuItem = menuHidden.getItems()[i-1];
+
+    if (menuItem.getVisible()) {
+        overflowItems.push({
+            ICON: menuItem.getIcon() || "sap-icon://fa-solid/caret-right",
+            TEXT: menuItem.getText(),
+            ACTION_ID: menuItem.getId()
+        });
+    }
+}
+
+for (var i = appsHidden.getItems().length; i > 0; i--) {
+    var appsItem = appsHidden.getItems()[i-1];
+
+    overflowItems.push({
+        ICON: appsItem.getIcon() || "sap-icon://nep/app",
+        TEXT: appsItem.getText(),
+        ACTION_ID: appsItem.getId(),
+        TILE_GUID: appsItem.tileGuid,
+        APP: true,
+        FIRST_APP: (i === 0)
+    });
+}
+
+modelListOverflow.setData(overflowItems);
+popOverflow.openBy(this);

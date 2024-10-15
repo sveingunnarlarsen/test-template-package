@@ -1,0 +1,4 @@
+var fav = neptune.Model.getDataObject(oEvent);
+const favorites = sap.n.Launchpad.delFav(fav.GUID);
+
+if (favorites.length === 0) diaFavDnD.close();

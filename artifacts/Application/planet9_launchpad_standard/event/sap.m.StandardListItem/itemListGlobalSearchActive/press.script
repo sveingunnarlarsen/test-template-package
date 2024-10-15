@@ -1,0 +1,19 @@
+var context = oEvent.oSource.getBindingContext();
+var data = context.getObject();
+
+const dataTile = ModelData.FindFirst(AppCacheTiles, "GUID", data.id);
+if (dataTile) {
+    const _handle = (callback)=>{
+        if (typeof callback === "function") callback();
+        sap.n.Launchpad.HandleTilePress(dataTile);
+        sap.n.GlobalSearch.close();
+    };
+
+    if (sap.n.Application.beforeSuspend(sap.n.Application.event.openAppNavigation, {
+        appId: dataTile.APPLID,
+        appName: dataTile.MENU_TEXT || dataTile.TILE_TITLE,
+        defaultAction: _handle
+    })) return;
+
+    _handle();
+}

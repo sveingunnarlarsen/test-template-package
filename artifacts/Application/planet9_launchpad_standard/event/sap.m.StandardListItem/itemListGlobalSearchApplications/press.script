@@ -1,0 +1,8 @@
+var context = oEvent.oSource.getBindingContext();
+var data = context.getObject();
+
+const dataTile = ModelData.FindFirst(AppCacheTiles, "id", data.id);
+if (dataTile) {
+    sap.n.Launchpad.HandleTilePress(dataTile);
+    sap.n.GlobalSearch.close();
+}

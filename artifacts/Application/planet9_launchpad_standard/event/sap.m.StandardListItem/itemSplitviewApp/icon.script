@@ -1,0 +1,2 @@
+if (!TILE_ICON) return "sap-icon://bbyd-dashboard";
+return TILE_ICON;

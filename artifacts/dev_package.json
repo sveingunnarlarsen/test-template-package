@@ -1,0 +1,60 @@
+{
+	"id": "05fe7029-dd8a-ef11-b3c6-e8c829417d3b",
+	"createdAt": "2024-10-15T10:06:36.943Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/sveingunnarlarsen/test-template-package.git"
+	},
+	"name": "Neptune Templates",
+	"description": null,
+	"ver": "24.10.15.1220",
+	"enableCICD": true,
+	"excludeTemplateFiles": true,
+	"roles": [],
+	"apps": [
+		{
+			"id": "570dece3-cd7e-4909-b99b-7db8e58d88c6",
+			"application": "planet9_login",
+			"title": "Login - Neptune DXP Open Edition",
+			"description": "Login - Neptune DXP Open Edition"
+		},
+		{
+			"id": "479ca632-13f8-4b0e-a8a0-eb1ed336432c",
+			"application": "planet9_launchpad_standard",
+			"title": "",
+			"description": "Planet 9 Launchpad "
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"tile_layout": [],
+	"category": [],
+	"tilegroup_layout": [],
+	"launchpad": [],
+	"launchpad_layout": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": [],
+	"theme_ui5": []
+}

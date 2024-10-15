@@ -1,0 +1,48 @@
+<script type="text/javascript" src="/public/ms/msal.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="/public/images/connect/favicon.svg" />
+<script type="text/javascript" src="/public/js/Style-dbg.js"></script>
+<script>
+    function applyLayout(config) {
+        if (AppCache.CurrentLayout.THEME !== sap.ui.getCore().getConfiguration().getTheme()) {
+            sap.ui.getCore().applyTheme(AppCache.CurrentLayout.THEME);
+        }
+        else {
+            afterTheme();
+        }
+    };
+    function afterTheme() {
+
+        if (!AppCache.CurrentLayout) return;
+
+        neptune.Style.setCssVariables(AppCache.CurrentLayout.THEME);
+        const style = neptune.Style.getLayoutCss({
+            layout: AppCache.CurrentLayout,
+        });
+
+        const link = document.querySelector("link[type='image/x-icon']") || document.createElement('link');
+        link.type = 'image/x-icon';
+        link.rel = 'shortcut icon';
+        link.href = style.faviconUrl;
+        document.getElementsByTagName('head')[0].appendChild(link);
+
+        if (typeof AppCacheShellLogoDesktop !== "undefined") AppCacheShellLogoDesktop.setSrc(style.logoDesktop);
+        if (typeof AppCacheShellBrandImgBottom !== "undefined") AppCacheShellBrandImgBottom.setSrc(style.brandImg);
+        
+        const elem = document.getElementById("NeptuneStyleCSSDiv")
+        if (!!elem) elem.innerHTML = style.css;
+    };
+
+    sap.ui.getCore().attachThemeChanged(function () {
+        afterTheme();
+    });
+
+    if (neptune.Style.isDarkModeEnabled) {
+        document.documentElement.classList.add("nepThemeDark");
+        AppCache.CurrentLayout = AppCache.layoutDark;
+    } else {
+        document.documentElement.classList.add("nepThemeLight");
+        AppCache.CurrentLayout = AppCache.layoutLight;
+    }
+    document.documentElement.classList.add("nepLogon");
+    applyLayout();
+</script>

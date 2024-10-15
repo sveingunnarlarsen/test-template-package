@@ -1,0 +1,2 @@
+diaFavDnD.open();
+sap.n.Launchpad.settingsMenuClose();

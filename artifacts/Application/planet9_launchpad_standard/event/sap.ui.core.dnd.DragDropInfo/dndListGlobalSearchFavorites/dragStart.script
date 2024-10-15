@@ -1,0 +1,3 @@
+if (oEvent.getParameter("target")._bGroupHeader) {
+    oEvent.preventDefault(true);
+}

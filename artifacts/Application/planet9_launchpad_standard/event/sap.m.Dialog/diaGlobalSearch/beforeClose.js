@@ -1,0 +1,1 @@
+blockToolpageHeader.setVisible(false);

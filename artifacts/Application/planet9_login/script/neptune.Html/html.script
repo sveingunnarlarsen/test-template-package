@@ -1,0 +1,23 @@
+<style id="loginStyle">
+    .nepLogonLayout .nepLogonButtonLayout,
+    .nepLogonLayout .nepLogonSystemLayout {
+        padding: 0;
+    }
+    @media (max-width: 450px) {
+        .nepLogonContainer .nepBackdropContainer {
+            margin: 0;
+        }
+    }
+    .nepPassRequired.sapMMsgStrip {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .sapUiFormEdit .nepLogonSystemName.sapMText,
+    .sapUiFormEdit .nepLogonSystemDescription.sapMText {
+        padding: 0;
+        min-height: 0;
+    }
+    .nepPoweredByImg {
+        
+    }
+</style>

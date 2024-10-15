@@ -1,0 +1,21 @@
+const draggedControl = oEvent.getParameter("draggedControl");
+const droppedControl = oEvent.getParameter("droppedControl");
+
+const draggedContext = draggedControl.getBindingContext();
+const droppedContext = droppedControl.getBindingContext();
+
+if (!draggedContext && !droppedContext) return;
+
+const draggedData = draggedContext.getObject();
+const droppedData = droppedContext.getObject();
+
+let indexDrag = 0;
+let indexDrop = 0;
+
+modelTabSplitviewList.oData.forEach((data, i) => {
+    if (data.TILE_TITLE === draggedData.TILE_TITLE) indexDrag = i;
+    if (data.TILE_TITLE === droppedData.TILE_TITLE) indexDrop = i;
+});
+
+sap.n.Planet9.arrayMove(modelTabSplitviewList.oData, indexDrag, indexDrop);
+modelTabSplitviewList.refresh();

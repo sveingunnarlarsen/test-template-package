@@ -1,0 +1,37 @@
+// Build Version Info - General
+const arrInfo = [{
+    key: 'UI5 Version',
+    value: sap.ui.version
+}];
+
+// Build Version Info - Phone
+if (typeof device !== 'undefined') {
+    arrInfo.push({
+        key: AppCache_tPhoneType.getText(),
+        value: device.platform
+    });
+    arrInfo.push({
+        key: AppCache_tPhoneVersion.getText(),
+        value: device.version
+    });
+    arrInfo.push({
+        key: AppCache_tPhoneModel.getText(),
+        value: device.model
+    });
+    arrInfo.push({
+        key: AppCache_tCordovaVersion.getText(),
+        value: device.cordova
+    });
+    arrInfo.push({
+        key: AppCache_tAppVersion.getText(),
+        value: AppCache.AppVersion
+    });
+}
+
+AppCacheSettingsUser.setTitle(AppCache.userInfo.name);
+AppCacheSettingsUser.setIntro(AppCache.userInfo.username);
+modelAppCacheTabVer.setData(arrInfo);
+AppCacheDiaSettings.open();
+modelAppCacheData.refresh();
+
+sap.n.Launchpad.settingsMenuClose();

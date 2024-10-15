@@ -1,0 +1,2 @@
+sap.n.Launchpad.settingsMenuClose();
+sap.n.Launchpad.delFav(sap.n.Launchpad.currentTile.id);

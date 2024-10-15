@@ -1,0 +1,7 @@
+var deleteItem = oEvent.getParameter("listItem");
+var context = deleteItem.getBindingContext();
+
+var data = modelTabSplitviewList.oData;
+data.splice(+context.getPath().slice(1), 1);
+modelTabSplitviewList.setData(data);
+modelTabSplitviewList.refresh();

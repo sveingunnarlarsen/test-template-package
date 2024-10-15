@@ -1,0 +1,2 @@
+var orientation = (this.getSelectedIndex() === 0) ? "Horizontal" : "Vertical";
+sap.n.Launchpad.Splitview.setOrientation(orientation);

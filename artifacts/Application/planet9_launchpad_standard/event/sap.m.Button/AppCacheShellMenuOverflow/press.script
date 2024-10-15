@@ -1,0 +1,78 @@
+if (sap.ui.Device.resize.width < sap.n.Launchpad.verticalMenuLimit) {
+    sap.n.Launchpad.setContentMenuWidth("0px");
+}
+
+if (AppCache.verticalMenu && sap.ui.Device.resize.width >= sap.n.Launchpad.verticalMenuLimit) {
+    var size = (launchpadContentMenu.getWidth() === "0px") ? AppCache.sideMenuWidth : "0px";
+    launchpadContentMenu.addItem(pageVerticalMenu);
+    sap.n.Launchpad.setContentMenuWidth(size);
+
+    openAppMaster.setVisible((openApps.getItems().length > 0));
+
+    neptune.Utils.userDefault.update({
+        AREA: "LAUNCHPAD",
+        GROUPING: "VERTICAL_MENU_SIZE",
+        NAME: AppCache.CurrentConfig,
+        KEY0: "Size",
+        VAL0: size
+    });
+    pageVerticalMenu.setVisible((launchpadContentMenu.getWidth() !== "0px"));
+
+} else {
+    launchpadOverflowContainer.setVisible(true);
+
+    setTimeout(function() {
+        pageVerticalMenu.setVisible(true);
+        btnVerticalMenuDummy.setVisible(true);
+
+        launchpadOverflow.addItem(pageVerticalMenu);
+        openAppMaster.setVisible((openApps.getItems().length > 0));
+
+        if (launchpadOverflowContainer.getDomRef()) launchpadOverflowContainer.getDomRef().style.width = "100%";
+        if (launchpadOverflowClickArea.getDomRef()) launchpadOverflowClickArea.getDomRef().style.display = "block";
+
+        setTimeout(function() {
+            launchpadOverflow.addStyleClass("nepLaunchpadMenuOverflowOpen");
+        });
+    });
+}
+sap.n.Layout.setHeaderPadding();
+setTimeout(function() {
+    launchpadOverflowBtn.focus();
+    sap.n.Launchpad.checkSidepanelWidth();
+});
+
+// // verticalMenu = Pin main menu to the left side bar. Slide out from left on small screens
+// if (AppCache.config.verticalMenu) {
+//     if (launchpadContentMenu.getVisible()) {
+//         sap.n.Launchpad.overflowMenuClose();
+//     } else {
+//         sap.n.Launchpad.overflowMenuOpen();
+//     }
+
+//     return;
+// }
+
+// if (launchpadContentMenu.getVisible()) {
+//     sap.n.Launchpad.overflowMenuClose();
+//     return;
+// }
+
+// const isSmallScreen = sap.ui.Device.resize.width < sap.n.Launchpad.verticalMenuLimit;
+// if (isSmallScreen) launchpadContentMenu.setWidth("0px");
+
+// if (isSmallScreen) {
+//     launchpadOverflow.addItem(pageVerticalMenu);
+//     applyCSSToElmId('launchpadOverflowContainer', { width: '100%' });
+//     applyCSSToElmId('launchpadOverflowClickArea', { display: 'block' });
+// } else {
+//     let size = (launchpadContentMenu.getWidth() === "0px") ? "300px" : "0px";
+//     launchpadContentMenu.addItem(pageVerticalMenu).setWidth(size);    
+// }
+
+// sap.n.Launchpad.setLaunchpadContentWidth();
+// openAppMaster.setVisible(openApps.getItems().length > 0);
+// sap.n.Layout.setHeaderPadding();
+
+// sap.n.Launchpad.overflowMenuOpen();
+// launchpadOverflowContainer.setVisible(true);

@@ -1,0 +1,12 @@
+// if (typeof sap.n.Launchpad.HandleTitlePress === "function") {
+//     sap.n.Launchpad.HandleTitlePress();
+
+// } else if (typeof sap.n.Launchpad.AppTitleFn === "function") {
+//     sap.n.Launchpad.AppTitleFn();
+
+// } else {
+//     if (sap.n.Launchpad.HandleBackButton()) {
+//         return;
+//     }
+//     AppCache._Back();
+// }
